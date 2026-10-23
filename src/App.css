@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.card-body {
+  position: relative;
+}
+
+/* Position the delete icon */
+.card-body .fa-trash-can {
+  background-color: white;
+  position: absolute;
+  top: -8px;
+  right: 30px;
+}
+
+/* Position the edit icon */
+.card-body .fa-pen-to-square {
+  background-color: white;
+  position: absolute;
+  top: -8px;
+  right: 2px;
+}
