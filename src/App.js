@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './components/Home';
 import Login from './components/Login';
 import Signup from './components/Signup';
@@ -27,7 +27,7 @@ function App() {
     <>
 
       <NoteState>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
           <Navbar />
           <Alert alert={alert}/>
           <div className="container">
@@ -39,7 +39,7 @@ function App() {
               <Route exact path="/signup" element={<Signup showAlert={showAlert}/>} />     
             </Routes>
           </div>
-        </BrowserRouter>
+        </HashRouter>
       </NoteState>
 
     </>
