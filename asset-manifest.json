@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/iNotebook/static/css/main.86e55b8c.css",
-    "main.js": "/iNotebook/static/js/main.cd9771e5.js",
+    "main.js": "/iNotebook/static/js/main.ba316d63.js",
     "index.html": "/iNotebook/index.html",
     "main.86e55b8c.css.map": "/iNotebook/static/css/main.86e55b8c.css.map",
-    "main.cd9771e5.js.map": "/iNotebook/static/js/main.cd9771e5.js.map"
+    "main.ba316d63.js.map": "/iNotebook/static/js/main.ba316d63.js.map"
   },
   "entrypoints": [
     "static/css/main.86e55b8c.css",
-    "static/js/main.cd9771e5.js"
+    "static/js/main.ba316d63.js"
   ]
 }
