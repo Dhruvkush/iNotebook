@@ -43,7 +43,7 @@ const Notes = (props) => {
     }
 
     return (
-        <>
+        <> 
             <AddNote showAlert={props.showAlert}/>
 
             <button type="button" ref={ref} className="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -94,6 +94,7 @@ const Notes = (props) => {
                 })}
                 </div>
             </div>
+        
         </>
     )
 }
